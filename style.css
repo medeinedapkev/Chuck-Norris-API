@@ -1,0 +1,31 @@
+body {
+    background-color: #a01b1b;
+}
+.card {
+    box-shadow: 8px 10px 10px rgb(35, 33, 33);
+    border-color: black;
+}
+
+.card-header {
+    background-color: #F44336;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-tabs .nav-link:hover {
+    color: white;
+    border-color: #F44336;
+    border-bottom-color: rgba(0, 0, 0, 0.165);    
+}
+
+.card-header-tabs .nav-link.active {
+    background-color: #FF5252;
+    border-color: rgba(0, 0, 0, 0.175);
+    border-bottom-color: #FF5252;
+}
+
+.card-body {
+    background-color: #ff5252;
+}
