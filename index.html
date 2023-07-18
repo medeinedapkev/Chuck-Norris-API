@@ -34,22 +34,21 @@
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="second">
-                        <h5 class="card-title">Joke by category about Chuck Norris</h5>
+                        <h5 class="card-title">Joke about Chuck Norris</h5>
                         <p class="card-text category-joke-text"></p>
                         <form class="form-categories">
-                            <label for="category">Choose joke category:</label>
-                            <select class="form-select" aria-label="Default select example" name="joke-categories" id="category"></select>
-                            <input class="joke-button btn btn-danger" type="submit" disabled>
+                            <label class="category-label" for="category">Choose joke category:</label>
+                            <select class="category-select form-select" aria-label="Default select example" name="joke-categories" id="category"></select>
+                            <input class="category-btn joke-button btn btn-danger" type="submit" disabled>
                         </form>
-                        
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="third">
-                        <h5 class="card-title">Joke by search about Chuck Norris</h5>
+                        <h5 class="card-title">Joke about Chuck Norris</h5>
                         <p class="card-text search-joke-text"></p>
                         <form class="search-form">
-                            <input type="text" id="search">
-                            <input type="submit" class="search-joke-button btn btn-danger">
+                            <input class="search-input form-control" type="text" id="search">
+                            <input type="submit" class="search-btn btn btn-danger">
                         </form>
                     </div>
                 </div>

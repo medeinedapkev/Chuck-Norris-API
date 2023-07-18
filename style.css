@@ -29,3 +29,71 @@ body {
 .card-body {
     background-color: #ff5252;
 }
+
+.form-categories {
+    display: grid;
+    grid-template-columns: 3fr 2fr 4fr 1fr 3fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-form {
+    display: grid;
+    grid-template-columns: 4fr 4fr 1fr 4fr;
+    gap: 10px;
+}
+
+.category-label,
+.search-input {
+    grid-column: 2 / 3;
+}
+
+@media (max-width: 770px) {
+    .form-categories {
+        grid-template-columns: 1fr 2fr 4fr 1fr 1fr;
+    }
+
+    .search-form {
+        grid-template-columns: 3fr 4fr 1fr 3fr;
+    }
+}
+
+@media (max-width: 530px) {
+    .form-categories {
+        grid-template-columns: 2fr 4fr 1fr;
+    }
+
+    .category-label {
+        grid-column: 1 / 2;
+    }
+
+    .search-form {
+        grid-template-columns: 1fr 4fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 420px) {
+    .form-categories {
+        grid-template-columns: 4fr 1fr;
+    }
+    .category-label {
+        display: none;
+    }
+
+    .search-form {
+        grid-template-columns: 4fr 1fr;
+    }
+    
+    .search-input {
+        grid-column: 1 / 2;
+    }
+}
+
+@media (max-width: 340px) {
+    .card-header-tabs .nav-link.active,
+    .card-header-tabs .nav-link {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+}
