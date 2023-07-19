@@ -59,7 +59,7 @@ body {
     }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 545px) {
     .form-categories {
         grid-template-columns: 2fr 4fr 1fr;
     }
@@ -73,7 +73,7 @@ body {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 437px) {
     .form-categories {
         grid-template-columns: 4fr 1fr;
     }
@@ -93,7 +93,7 @@ body {
 @media (max-width: 340px) {
     .card-header-tabs .nav-link.active,
     .card-header-tabs .nav-link {
-        padding: 4px 8px;
-        font-size: 14px;
+        padding: 5px 9px;
+        font-size: 15px;
     }
 }

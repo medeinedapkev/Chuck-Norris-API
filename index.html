@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container mx-auto py-5 mt-5 ">
+    <div class="container mx-auto py-5 mt-5" style="max-width: 800px;">
         <div class="card text-center">
 
             <div class="card-header">
@@ -17,7 +17,7 @@
                   <a class="nav-link active" href="#first" role="tab" data-bs-toggle="tab">Random</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#second" role="tab" data-bs-toggle="tab">By category</a>
+                  <a class="nav-link" href="#second" role="tab" data-bs-toggle="tab">Category</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#third" role="tab" data-bs-toggle="tab">Search</a>
@@ -34,21 +34,21 @@
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="second">
-                        <h5 class="card-title">Joke about Chuck Norris</h5>
+                        <h5 class="card-title">Chuck Norris jokes by category</h5>
                         <p class="card-text category-joke-text"></p>
                         <form class="form-categories">
                             <label class="category-label" for="category">Choose joke category:</label>
                             <select class="category-select form-select" aria-label="Default select example" name="joke-categories" id="category"></select>
-                            <input class="category-btn joke-button btn btn-danger" type="submit" disabled>
+                            <input class="category-btn joke-button btn btn-danger" type="submit" value="Get a joke" disabled >
                         </form>
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="third">
-                        <h5 class="card-title">Joke about Chuck Norris</h5>
+                        <h5 class="card-title">Search a joke about Chuck Norris</h5>
                         <p class="card-text search-joke-text"></p>
                         <form class="search-form">
                             <input class="search-input form-control" type="text" id="search">
-                            <input type="submit" class="search-btn btn btn-danger">
+                            <input type="submit" class="search-btn btn btn-danger" value="Search">
                         </form>
                     </div>
                 </div>
